@@ -1,2 +1,12 @@
 this is 1st commit
 this is 2nd commit
+
+pipeline {
+  agent any
+  stages
+  stage
+  step
+  }
+  git 'clone'{
+  sh 'mvn package'
+
